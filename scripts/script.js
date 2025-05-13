@@ -23,7 +23,7 @@ showImage(current);
 setInterval(() => {
   current = Math.floor(Math.random() * images.length);
   showImage(current);
-}, 8000);
+}, 5000);
 
 // Add event listeners for keyboard navigation
 document.addEventListener('keydown', (event) => {
