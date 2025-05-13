@@ -44,11 +44,12 @@ body {
 .carousel-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top; /* Add this line */
+  object-fit: contain; /* show full image */
+  object-position: top; /* align to top */
+  background-color: #fffcfc; /* optional: fills gaps with black */
   display: none;
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   transition: opacity 0.5s ease;
 }
